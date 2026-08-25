@@ -164,21 +164,19 @@ Test cases cover: filing a bug report correctly, two FAQ questions (returns,
 shipping), an off-topic request, an ambiguous message, a short one-word
 message, and a prompt-injection attempt.
 
-## Cleanup
-
-```bash
-python cleanup_agentcore.py
-```
-
-Deletes the harness, gateway target, and gateway (in that order), then
-prints the remaining CloudFormation cleanup commands (empty the S3
-evaluation bucket before deleting its stack).
+Across all 7 test cases, the harness scored a **1.00 average correctness**
+in Bedrock Evaluations.
 
 ## Screenshots
 
-> Add screenshots to a `screenshots/` folder and reference them here — e.g.
-> the chat CLI in action, a DynamoDB ticket record, and an evaluation job's
-> results in the Bedrock console.
+Screenshots are in [`/Screenshots`](./Screenshots):
+
+| | |
+|---|---|
+| Bug report flow (chat session) | `1_Chat_Sessions.png` |
+| Bug ticket written to DynamoDB | `2_dynamodb.png` |
+| FAQ answer + out-of-scope redirect | `3_FAQ.png` |
+| Bedrock Evaluations correctness score (1.00 avg, 7 prompts) | `4_AWS_Evaluation_Score.png` |
 
 ## License & Acknowledgments
 
