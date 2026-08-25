@@ -169,14 +169,17 @@ in Bedrock Evaluations.
 
 ## Screenshots
 
-Screenshots are in [`/Screenshots`](./Screenshots):
+**Bug report flow (chat session)**
+![Chat session](./Screenshots/1_Chat_Sessions.png)
 
-| | |
-|---|---|
-| Bug report flow (chat session) | `1_Chat_Sessions.png` |
-| Bug ticket written to DynamoDB | `2_dynamodb.png` |
-| FAQ answer + out-of-scope redirect | `3_FAQ.png` |
-| Bedrock Evaluations correctness score (1.00 avg, 7 prompts) | `4_AWS_Evaluation_Score.png` |
+**Bug ticket written to DynamoDB**
+![DynamoDB ticket](./Screenshots/2_dynamodb.png)
+
+**FAQ answer + out-of-scope redirect**
+![FAQ and redirect](./Screenshots/3_FAQ.png)
+
+**Bedrock Evaluations correctness score (1.00 avg, 7 prompts)**
+![Evaluation score](./Screenshots/4_AWS_Evaluation_Score.png)
 
 ## License & Acknowledgments
 
